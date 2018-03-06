@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_add"
+            android:icon="@drawable/add"
+            android:title="@string/anadir" />
+        <item
+            android:id="@+id/nav_books"
+            android:icon="@drawable/books"
+            android:title="@string/app_name" />
+
+        <item
+            android:id="@+id/nav_perfil"
+            android:icon="@drawable/user"
+            android:title="@string/perfil" />
+        <item
+            android:id="@+id/nav_config"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/config" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="@string/logout" />
+    </group>
+
+</menu>

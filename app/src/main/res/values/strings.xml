@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Mis Libros</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- MENU -->
+    <string name="user_name">Nombre</string>
+    <string name="user_mail">usuario@gmail.com</string>
+    <string name="logout">Salir</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="config">Configuración</string>
+    <string name="acerca_de">Acerca de</string>
+    <string name="anadir">Añadir libro</string>
+    <string name="buscar">Buscar</string>
+    <string name="perfil">Mi Perfil</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Fragment Añadir Libro-->
+    <string name="icono_libro">Portada</string>
+    <string name="escanear">Escanear</string>
+    <string name="titulo">Título</string>
+    <string name="autor">Autor</string>
+    <string name="editorial">Editorial</string>
+    <string name="edicion">Edicion</string>
+    <string name="codigo_isbn">Código ISBN</string>
+    <string name="estado">Estado</string>
+    <string name="libro_en_biblioteca">En biblioteca</string>
+    <string name="btn_agregar">Añadir</string>
+    <string name="prestado_a">Prestado a</string>
+</resources>

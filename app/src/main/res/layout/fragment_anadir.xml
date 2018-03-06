@@ -1,0 +1,148 @@
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            tools:context=".AgregaLibroActivity">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/iv_portada"
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:contentDescription="@string/icono_libro"
+                    android:src="@drawable/books" />
+
+                <ImageButton
+                    android:id="@+id/btn_scanner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginStart="20dp"
+                    android:contentDescription="@string/escanear"
+                    android:src="@drawable/icono_scanner" />
+
+                <ImageButton
+                    android:id="@+id/btn_camara"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:contentDescription="@android:drawable/ic_menu_camera"
+                    android:src="@android:drawable/ic_menu_camera" />
+
+                <ImageButton
+                    android:id="@+id/btn_galeria"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:contentDescription="@android:drawable/ic_menu_gallery"
+                    android:src="@android:drawable/ic_menu_gallery" />
+            </LinearLayout>
+
+
+            <EditText
+                android:id="@+id/nuevo_titulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/titulo"
+                android:gravity="center"
+                android:inputType="textAutoCorrect"
+                android:layout_marginTop="30dp"
+                android:maxLength="50">
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/nuevo_autor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/autor"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:inputType="textPersonName" />
+
+
+            <EditText
+                android:id="@+id/nuevo_editorial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/editorial"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/nuevo_edicion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/edicion"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/nuevo_codigo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/codigo_isbn"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:inputType="number" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/estado" />
+                <TextView
+                    android:id="@+id/estado"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/libro_en_biblioteca" />
+                <TextView
+                    android:id="@+id/prestatario"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_anadir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="@string/btn_agregar" />
+
+        </LinearLayout>
+
+    </ScrollView>
